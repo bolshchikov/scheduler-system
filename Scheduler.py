@@ -1,3 +1,5 @@
+MAX_PROCS = 1000
+
 class Scheduler:
 	def __init__ (self):
 		self._numOfProcs = 0

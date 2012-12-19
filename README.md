@@ -53,4 +53,9 @@ Your are allowed to write the extra code in file `schedule_extra.py`.
 
 TODO
 ----
-1. Rewrite C++ files to Python
+1. Rewrite C++ files to Python:
+	* <del>Process.h</del>
+	* <del>Scheduler.h</del>
+	* <del>LinkedHash.h</del> and LinkedHash.cpp
+	* <del>MaxHeap.h</del> and MaxHeap.cpp
+	* example_output.cpp
