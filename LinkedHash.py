@@ -1,3 +1,5 @@
+import math
+import copy
 '''
 An abstract chain hash implementation for process objects.
 In order to use it you will need to:
@@ -48,9 +50,10 @@ class LinkedHash:
                     prev = entry
                     entry = entry.getNext()
                     if (prev.getValue() != None):
-                        del prev.getValue()
-                    del prev
-        del self._table
+                        val = pre.getValue()
+                        val = None
+                    prev = None
+        self._table = None
 
 
     
@@ -59,7 +62,9 @@ class LinkedHash:
         in order to use the hash.
         What are the assumptions you are making ?
         What will be your key ?''' 
-        pass
+        # multiplication method implementation
+        return int(math.floor(self._max_size*((key*0.293)%1)))
+
 
     def get (self, key):
         '''Returns the process corresponding to key.
@@ -101,11 +106,49 @@ class LinkedHash:
             lhe.setNext(head)
         self._table[hashKey] = lhe
 
-
     def remove (self, key):
         '''Removes an existing process from the hashtable.
         You need to implement it in LinkedHash.cpp.'''
-        pass
+        hashKey = self.hashFunction(key)
+        if hashKey >= self._max_size or hashKey < 0:
+            print 'hashFunction result cannot be larger than %d or negative \n' % self._max_size
+            return None
+        if self._table[hashKey] == None:
+            return None
+        else:
+            prev = None
+            entry = self._table[hashKey]
+            while entry != None and entry.getKey() != key:
+                prev = entry
+                entry = entry.getNext()
+            if entry == None:
+                return None
+            else:
+                if prev != None:
+                    prev.setNext(entry.getNext());
+                else:
+                    self._table[hashKey] = entry.getNext()                 
+                entry = None
+
 
     def getMaxSize (self):
         return self._max_size
+
+    def printTable (self):
+        for record in self._table:
+            if record != None:
+                entry = record
+                while entry != None:
+                    print (entry.getKey(), entry.getValue())
+                    entry = entry.getNext()
+            else:
+                print None
+
+def main():
+    hash = LinkedHash(10)
+    hash.insert(1, 'test')
+    hash.remove(1)
+    hash.printTable()
+
+if __name__=='__main__':
+    main()

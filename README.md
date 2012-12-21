@@ -56,14 +56,11 @@ TODO
 1. Rewrite C++ files to Python:
 	* <del>Process.h</del>
 	* <del>Scheduler.h</del>
-	* <del>LinkedHash.h</del> and LinkedHash.cpp
+	* <del>LinkedHash.h</del> and <del>LinkedHash.cpp</del>
 	* <del>MaxHeap.h</del> and <del>MaxHeap.cpp</del>
 	* <del>example_output.cpp</del>
 2. Implement Process
-3. Implement MaxHeap
-4. Implement LinkedHash
+3. <del>Implement MaxHeap</del>
+4. <del>Implement LinkedHash</del>
 5. Implement Scheduler
-6. **DO NOT** forget to make changes in files from debug to prod mode:
-	* `MaxHeap.py`:
-		* remove `main()`
-		* add `.priority` in `compareProcesses` method
+6. Write documentation
