@@ -50,6 +50,8 @@ Explanations regarding the given files, in which hash tables and max heap are im
 
 Your are allowed to write the extra code in file `schedule_extra.py`. 
 
+### UML Class Diagram
+![uml class diagram](https://raw.github.com/bolshchikov/scheduler-system/master/class_diagram.jpg)
 
 TODO
 ----
