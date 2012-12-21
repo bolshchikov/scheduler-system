@@ -59,3 +59,11 @@ TODO
 	* <del>LinkedHash.h</del> and LinkedHash.cpp
 	* <del>MaxHeap.h</del> and <del>MaxHeap.cpp</del>
 	* <del>example_output.cpp</del>
+2. Implement Process
+3. Implement MaxHeap
+4. Implement LinkedHash
+5. Implement Scheduler
+6. **DO NOT** forget to make changes in files from debug to prod mode:
+	* `MaxHeap.py`:
+		* remove `main()`
+		* add `.priority` in `compareProcesses` method

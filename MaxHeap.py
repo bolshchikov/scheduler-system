@@ -13,7 +13,7 @@ class MaxHeap:
     def __init__(self):
         '''Constructor'''
         self._elements = 0
-        self._array = []
+        self._array = [None]*MAX_SIZE
 
     def destroy(self):
         del self._array
@@ -28,7 +28,7 @@ class MaxHeap:
         else:
             return -1
 
-    def right(self):
+    def right(self, root):
         #returns right son
         if root < 1 or root > self._elements:
             print 'right: invalid index %d \n' % root
@@ -39,7 +39,7 @@ class MaxHeap:
             return -1
 
 
-    def parent(self):
+    def parent(self, root):
         if root < 1 or root > self._elements:
             print 'parent" invalid index %d \n' % root
             return -1
@@ -53,11 +53,11 @@ class MaxHeap:
         self._elements += 1
         #elements represents the array position after the last 
         self._array[self._elements] = item
-        new_pos = self._elements;
+        new_pos = self._elements
 
         while new_pos != 1 and self.compareProcesses(self._array[new_pos], self._array[self.parent(new_pos)]) > 0:
-            self.swap_(new_pos, self.parent(new_pos));
-            new_pos = parent(new_pos);
+            self.swap_(new_pos, self.parent(new_pos))
+            new_pos = parent(new_pos)
         return new_pos
 
 
@@ -83,7 +83,8 @@ class MaxHeap:
         return self._elements
 
     def printHeap(self):
-        pass
+        print self._array
+
     def compareProcesses(self, process1, process2):
         '''
         A comparison method you must implement in order to use the heap.
@@ -93,7 +94,15 @@ class MaxHeap:
         - a negative number if p1's key is smaller than p2's key
         You must decide on the criteria for comparing the processes.
         '''
-        pass
+        if process1 == None or process2 == None:
+            print 'compareProcesses: processes must have priorities'
+            return
+        if process1 == process2:
+            return 0
+        elif process1 > process2:
+            return 1
+        else:
+            return -1
 
     def heapify(self, root):
         if root < 1:
@@ -129,6 +138,17 @@ class MaxHeap:
 
 def main():
     heap = MaxHeap()
+    heap.insert(16)
+    heap.insert(14)
+    heap.insert(10)
+    heap.insert(8)
+    heap.insert(7)
+    heap.insert(9)
+    heap.insert(3)
+    heap.insert(2)
+    heap.insert(4)
+    heap.insert(1)
+    print heap._array[heap.parent(2)]
 
 if __name__ == '__main__':
     main()
