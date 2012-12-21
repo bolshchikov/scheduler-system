@@ -57,5 +57,5 @@ TODO
 	* <del>Process.h</del>
 	* <del>Scheduler.h</del>
 	* <del>LinkedHash.h</del> and LinkedHash.cpp
-	* <del>MaxHeap.h</del> and MaxHeap.cpp
-	* example_output.cpp
+	* <del>MaxHeap.h</del> and <del>MaxHeap.cpp</del>
+	* <del>example_output.cpp</del>
