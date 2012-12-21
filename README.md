@@ -66,3 +66,6 @@ TODO
 4. <del>Implement LinkedHash</del>
 5. Implement Scheduler
 6. Write documentation
+
+***
+[*The MIT License*](http://mit-license.org/)
