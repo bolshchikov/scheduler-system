@@ -35,7 +35,7 @@ class Scheduler:
         3. Remove from _heapByPriority
         4. Remove from _hash
         5. Reduce amount of processes in the system
-        5. Return the value
+        6. Return the value
         '''
         maximumItem = self._heapByCreation.remove_max()
         priorityIndex = maximumItem['value'].getPriorityPosition()
@@ -54,9 +54,9 @@ class Scheduler:
 
     def changePriority (self, id, newPriority):
         '''
-        1. Retrieve priorityPosition from _hash
-        2. increaseKey in _heapByPriority
-        3. update priorityPosition in _hash
+        1. Retrieve process from a hash by id
+        2. Call increaseKey method of heapByPriority
+        3. Call changePriority method of process class
         '''
         process = self._hash.get(id)
         self._heapByPriority.increaseKey(process.getPriorityPosition(), newPriority);

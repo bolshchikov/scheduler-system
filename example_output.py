@@ -1,9 +1,9 @@
 import Scheduler
 
 def main():
-    print 'Running the example main.\n'
+    print 'Running the example main.'
     scheduler = Scheduler.Scheduler()
-    print '1. There are %d processes in the system\n' % scheduler.numOfProcesses()
+    print '1. There are %d processes in the system' % scheduler.numOfProcesses()
     scheduler.addProcess(345,34)
     scheduler.addProcess(347,78)
     scheduler.addProcess(457,10)
@@ -14,7 +14,7 @@ def main():
     scheduler.addProcess(89,45)
     scheduler.addProcess(5,3004)
 
-    print '2. Now there are %d  processes in the syste' % scheduler.numOfProcesses()
+    print '2. Now there are %d  processes in the system' % scheduler.numOfProcesses()
     print '3. First one scheduled by creation is ID: %d' % scheduler.scheduleByCreation()
     print '4. Second one scheduled by priority is ID: %d' % scheduler.scheduleByPriority()
     print '5. Now there are %d processes in the system' % scheduler.numOfProcesses()
@@ -35,7 +35,7 @@ def main():
     print '11. Now there are %d processes in the system' % scheduler.numOfProcesses()
     scheduler.addProcess(345,3004)
     scheduler.addProcess(346,344)
-    print '12. After adding 2 processes, there are %d processes in the syste' % scheduler.numOfProcesses()
+    print '12. After adding 2 processes, there are %d processes in the system' % scheduler.numOfProcesses()
     print '13. Seventh one scheduled by creation is ID: %d' % scheduler.scheduleByCreation()
     print '14. Eighth one scheduled by priority is ID: %d' % scheduler.scheduleByPriority()
     scheduler.killProcess(3004)
@@ -43,7 +43,7 @@ def main():
     print '15. Ninth one scheduled by priority is ID: %d'  % scheduler.scheduleByPriority()
     
     scheduler.destroy()
-    print '\n\n' 
+    print '\n' 
     return 0
 
 if __name__=='__main__':

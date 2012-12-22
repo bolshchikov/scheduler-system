@@ -1,14 +1,5 @@
 MAX_SIZE = 1000
 
-'''
-An abstract implementation of a maximum heap.
-In order to use this class you will need to:
-    1. Implement the missing methods in MaxHeap.cpp. These are: remove, 
-    increaseKey and remove_max methods.
-    2. Inherit from MaxHeap, the inheritance should contain implementations 
-    at least of the virtual function "compareProcesses".
-'''
-
 class MaxHeap:
     def __init__(self):
         '''Constructor'''
@@ -121,7 +112,6 @@ class MaxHeap:
         - a positive number if p1's key is larger than p2's key
         - 0 if p1's key is equal to p2's key
         - a negative number if p1's key is smaller than p2's key
-        You must decide on the criteria for comparing the processes.
         '''
         if process1['key'] == None or process2['key'] == None:
             print 'compareProcesses: processes must have priorities \n'
@@ -166,7 +156,7 @@ class MaxHeap:
         self._array[index2] = temp
 
         if self._array[index1]['key'] < 0:
-            #it means we are swaping creationHeap
+            #it means we are swapping creationHeap
             self._array[index1]['value'].setCreationPosition(index1)
             self._array[index2]['value'].setCreationPosition(index2)
         else:

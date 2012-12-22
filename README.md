@@ -24,6 +24,9 @@ You should create the system which performs the operations mentioned further.
 *	You should also correctly deal with incorrect input: i.e. id number doesn't exist, or priority is a negative number, etc. In this case,
 	the system should print error message that fits and do not make changes to the data structure.
 
+### Class Diagram
+![uml class diagram](https://raw.github.com/bolshchikov/scheduler-system/master/class_diagram.jpg)
+
 ### Implement
 You should implement the methods descirbed below with the given complexity. Your implementation will be in `Scheduler.py`.
 Explanations regarding the given files, in which hash tables and max heap are implemented, are provided further.
@@ -49,23 +52,6 @@ Explanations regarding the given files, in which hash tables and max heap are im
 4.	`example_output.py` - is the file for checks.
 
 Your are allowed to write the extra code in file `schedule_extra.py`. 
-
-### UML Class Diagram
-![uml class diagram](https://raw.github.com/bolshchikov/scheduler-system/master/class_diagram.jpg)
-
-TODO
-----
-1. Rewrite C++ files to Python:
-	* <del>Process.h</del>
-	* <del>Scheduler.h</del>
-	* <del>LinkedHash.h</del> and <del>LinkedHash.cpp</del>
-	* <del>MaxHeap.h</del> and <del>MaxHeap.cpp</del>
-	* <del>example_output.cpp</del>
-2. <del>Implement Process</del>
-3. <del>Implement MaxHeap</del>
-4. <del>Implement LinkedHash</del>
-5. <del>Implement Scheduler</del>
-6. Write documentation
 
 ***
 [*The MIT License*](http://mit-license.org/)
