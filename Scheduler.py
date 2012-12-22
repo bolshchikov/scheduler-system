@@ -38,19 +38,21 @@ class Scheduler:
         6. Return the value
         '''
         maximumItem = self._heapByCreation.remove_max()
-        priorityIndex = maximumItem['value'].getPriorityPosition()
-        self._heapByPriority.remove(priorityIndex)
-        self._hash.remove(maximumItem['value'].getID()) 
-        self._numOfProcs -= 1
-        return maximumItem['value'].getID()
+        if maximumItem != -1:
+            priorityIndex = maximumItem['value'].getPriorityPosition()
+            self._heapByPriority.remove(priorityIndex)
+            self._hash.remove(maximumItem['value'].getID()) 
+            self._numOfProcs -= 1
+            return maximumItem['value'].getID()
 
     def scheduleByPriority (self):
         maximumItem = self._heapByPriority.remove_max()
-        creationIndex = maximumItem['value'].getCreationPosition()
-        self._heapByCreation.remove(creationIndex)
-        self._hash.remove(maximumItem['value'].getID())
-        self._numOfProcs -= 1
-        return maximumItem['value'].getID()
+        if maximumItem != -1:
+            creationIndex = maximumItem['value'].getCreationPosition()
+            self._heapByCreation.remove(creationIndex)
+            self._hash.remove(maximumItem['value'].getID())
+            self._numOfProcs -= 1
+            return maximumItem['value'].getID()
 
     def changePriority (self, id, newPriority):
         '''
@@ -59,8 +61,11 @@ class Scheduler:
         3. Call changePriority method of process class
         '''
         process = self._hash.get(id)
-        self._heapByPriority.increaseKey(process.getPriorityPosition(), newPriority);
-        process.changePriority(newPriority)
+        if process:
+            self._heapByPriority.increaseKey(process.getPriorityPosition(), newPriority);
+            process.changePriority(newPriority)
+        else:
+            print 'changePriority: process with id %d is not in the scheduler' % id
 
     def killProcess (self, id):
         process = self._hash.get(id)
@@ -69,6 +74,7 @@ class Scheduler:
             self._heapByCreation.remove(process.getCreationPosition())
         else:
             print 'killProcess: process with id %d is not in the scheduler' % id
+            return
 
     def numOfProcesses (self):
         return self._numOfProcs
