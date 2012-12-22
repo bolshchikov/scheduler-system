@@ -1,5 +1,4 @@
 import math
-import copy
 '''
 An abstract chain hash implementation for process objects.
 In order to use it you will need to:
@@ -50,7 +49,7 @@ class LinkedHash:
                     prev = entry
                     entry = entry.getNext()
                     if (prev.getValue() != None):
-                        val = pre.getValue()
+                        val = prev.getValue()
                         val = None
                     prev = None
         self._table = None

@@ -13,7 +13,7 @@ class MaxHeap:
     def __init__(self):
         '''Constructor'''
         self._elements = 0
-        self._array = [None]*MAX_SIZE
+        self._array = [None]*(MAX_SIZE+1)
 
     def destroy(self):
         del self._array
@@ -58,6 +58,10 @@ class MaxHeap:
         while new_pos != 1 and self.compareProcesses(self._array[new_pos], self._array[self.parent(new_pos)]) > 0:
             self.swap_(new_pos, self.parent(new_pos))
             new_pos = self.parent(new_pos)
+        if item['key'] < 0:
+            item['value'].setCreationPosition(new_pos)
+        else:
+            item['value'].setPriorityPosition(new_pos)
         return new_pos
 
 
@@ -70,13 +74,14 @@ class MaxHeap:
         '''
         if self._array[index] == None:
             print 'increaseKey: process with index %d does not exist in the heap \n' % index
-        if key < self._array[index]:
+        if key < self._array[index]['key']:
             print 'increaseKey: new key is smaller than current key \n'
             return
-        self._array[index] = key
+        self._array[index]['key'] = key
         while index > 1 and self.compareProcesses(self._array[self.parent(index)], self._array[index]) < 0:
             self.swap_(index, self.parent(index))
             index = self.parent(index)   
+        return index
 
     def remove_max(self):
         if self.IsEmpty():
@@ -89,8 +94,9 @@ class MaxHeap:
         return maximum
 
     def remove(self, index):
-        self.swap_(index, 1);
-        self.remove_max();
+        self.swap_(index, self._elements);
+        self._elements -= 1
+        self.heapify(index);
 
     def IsEmpty(self):
         return self._elements == 0
@@ -102,7 +108,11 @@ class MaxHeap:
         return self._elements
 
     def printHeap(self):
-        print self._array
+        for item in self._array:
+            if item:
+                print item['key'], item['value'].getCreationPosition()
+            else:
+                print None
 
     def compareProcesses(self, process1, process2):
         '''
@@ -113,12 +123,12 @@ class MaxHeap:
         - a negative number if p1's key is smaller than p2's key
         You must decide on the criteria for comparing the processes.
         '''
-        if process1 == None or process2 == None:
+        if process1['key'] == None or process2['key'] == None:
             print 'compareProcesses: processes must have priorities \n'
             return
-        if process1 == process2:
+        if process1['key'] == process2['key']:
             return 0
-        elif process1 > process2:
+        elif process1['key'] > process2['key']:
             return 1
         else:
             return -1
@@ -155,25 +165,10 @@ class MaxHeap:
         self._array[index1] = self._array[index2]
         self._array[index2] = temp
 
-def main():
-    heap = MaxHeap()
-    heap.insert(16)
-    heap.insert(14)
-    heap.insert(10)
-    heap.insert(8)
-    heap.insert(7)
-    heap.insert(9)
-    heap.insert(3)
-    heap.insert(2)
-    heap.insert(4)
-    heap.insert(1)
-    
-    heap.printHeap()
-    heap.increaseKey(4, 15)
-    heap.printHeap()
-    heap.remove(3)
-    heap.printHeap()
-    print heap._elements
-
-if __name__ == '__main__':
-    main()
+        if self._array[index1]['key'] < 0:
+            #it means we are swaping creationHeap
+            self._array[index1]['value'].setCreationPosition(index1)
+            self._array[index2]['value'].setCreationPosition(index2)
+        else:
+            self._array[index1]['value'].setPriorityPosition(index1)
+            self._array[index2]['value'].setPriorityPosition(index2)

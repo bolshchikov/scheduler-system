@@ -1,0 +1,756 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"len",
+				"length"
+			],
+			[
+				"q",
+				"qToAppend"
+			],
+			[
+				"qTo",
+				"qToBeAppended"
+			],
+			[
+				"mar",
+				"margin-left"
+			],
+			[
+				"t",
+				"this"
+			],
+			[
+				"d",
+				"display"
+			],
+			[
+				"qu",
+				"queues"
+			],
+			[
+				"li",
+				"li	Tag"
+			],
+			[
+				"mari",
+				"margin-bottom"
+			],
+			[
+				"in",
+				"input	Tag"
+			],
+			[
+				"mae",
+				"margin-left"
+			],
+			[
+				"ne",
+				"_next"
+			],
+			[
+				"_",
+				"_creationNum"
+			],
+			[
+				"pr",
+				"print"
+			],
+			[
+				"sel",
+				"self"
+			],
+			[
+				"de",
+				"dequeue"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "README.md",
+			"settings":
+			{
+				"buffer_size": 3993,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "Process.py",
+			"settings":
+			{
+				"buffer_size": 497,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "LinkedHash.py",
+			"settings":
+			{
+				"buffer_size": 1526,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "Scheduler.py",
+			"settings":
+			{
+				"buffer_size": 379,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "raw/Process.h",
+			"settings":
+			{
+				"buffer_size": 497,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "raw/Scheduler.h",
+			"settings":
+			{
+				"buffer_size": 337,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "raw/LinkedHash.h",
+			"settings":
+			{
+				"buffer_size": 1849,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "raw/LinkedHash.cpp",
+			"settings":
+			{
+				"buffer_size": 1990,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "raw/MaxHeap.h",
+			"settings":
+			{
+				"buffer_size": 2345,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "raw/MaxHeap.cpp",
+			"settings":
+			{
+				"buffer_size": 3353,
+				"line_ending": "Windows"
+			}
+		}
+	],
+	"build_system": "",
+	"command_palette":
+	{
+		"height": 159.0,
+		"selected_items":
+		[
+			[
+				"gitpu",
+				"Git: Push"
+			],
+			[
+				"com",
+				"Git: Quick Commit"
+			],
+			[
+				"gitad",
+				"Git: Add..."
+			],
+			[
+				"gitpus",
+				"Git: Push Current Branch"
+			],
+			[
+				"gitcom",
+				"Git: Quick Commit"
+			],
+			[
+				"push",
+				"Git: Push Current Branch"
+			],
+			[
+				"gitac",
+				"Git: Amend Commit"
+			],
+			[
+				"gitadd",
+				"Git: Add Selected Hunk"
+			],
+			[
+				"git amm",
+				"Git: Amend Commit"
+			],
+			[
+				"gitp",
+				"Git: Push"
+			],
+			[
+				"gitst",
+				"Git: Status"
+			],
+			[
+				"gitstat",
+				"Git: Status"
+			],
+			[
+				"gitpush",
+				"Git: Push"
+			],
+			[
+				"gitc",
+				"Git: Commit"
+			],
+			[
+				"gitco",
+				"Git: Commit"
+			],
+			[
+				"git",
+				"Git: Gitk"
+			],
+			[
+				"pa",
+				"Package Control: List Packages"
+			],
+			[
+				"pack",
+				"Package Control: List Packages"
+			],
+			[
+				"gitaf",
+				"Git: Add Current File"
+			],
+			[
+				"pus",
+				"Git: Push"
+			],
+			[
+				"commi",
+				"Git: Commit"
+			],
+			[
+				"hg",
+				"Hg: Push"
+			],
+			[
+				"hgcom",
+				"Hg: Quick Commit"
+			],
+			[
+				"hgpu",
+				"Hg: Push"
+			],
+			[
+				"hgco",
+				"Hg: Quick Commit"
+			],
+			[
+				"hgad",
+				"Hg: Add Current File"
+			],
+			[
+				"HGCO",
+				"Hg: Quick Commit"
+			],
+			[
+				"Package Control: ",
+				"Package Control: Install Package"
+			],
+			[
+				"hgc",
+				"Hg: Quick Commit"
+			],
+			[
+				"pac",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 575.0
+	},
+	"console":
+	{
+		"height": 125.0
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/home/bolshchikov/Documents/Projects/vividopmevaluation/README.md",
+		"/home/bolshchikov/Documents/Projects/vividopmevaluation/js/index.js",
+		"/home/bolshchikov/Documents/Projects/doubly-headed-queue/css/index.css",
+		"/home/bolshchikov/Documents/Projects/doubly-headed-queue/js/queue.js",
+		"/home/bolshchikov/Documents/Projects/doubly-headed-queue/index.html",
+		"/home/bolshchikov/Documents/Projects/two-head-queue/css/index.css",
+		"/home/bolshchikov/Documents/Projects/two-head-queue/js/queue.js",
+		"/home/bolshchikov/Documents/Projects/two-head-queue/index.html",
+		"/home/bolshchikov/Documents/Education/Technion/Courses/094223 - Data Structures and Algorithms/Assignments/algs-ds-hw1/defs.py",
+		"/home/bolshchikov/.config/sublime-text-2/Packages/JSHint/reporter.js",
+		"/home/bolshchikov/.config/sublime-text-2/Packages/JSHint/JSHint.sublime-build",
+		"/home/bolshchikov/.config/sublime-text-2/Packages/JSHint/JSHint.py",
+		"/home/bolshchikov/.config/sublime-text-2/Packages/Package Control/Package Control.sublime-settings",
+		"/home/bolshchikov/Downloads/bootstrap/js/bootstrap.js",
+		"/home/bolshchikov/.config/sublime-text-2/Packages/Default/Preferences.sublime-settings",
+		"/home/bolshchikov/.config/sublime-text-2/Packages/User/Preferences.sublime-settings",
+		"/home/bolshchikov/.ssh/id_rsa.pub",
+		"/home/bolshchikov/.ssh/known_hosts",
+		"/home/bolshchikov/Documents/Own/bolshchikov/README.md",
+		"/home/bolshchikov/Documents/Own/cv/README.md",
+		"/home/bolshchikov/Documents/Own/CV/README.md",
+		"/home/bolshchikov/Documents/Education/Technion/Courses/094223 - Data Structures and Algorithms/Assignments/algs-ds-hw1/main.py",
+		"/home/bolshchikov/Documents/Education/Technion/Courses/094223 - Data Structures and Algorithms/Assignments/algs-ds-hw1/README.md",
+		"/home/bolshchikov/Documents/Education/Technion/Courses/094223 - Data Structures and Algorithms/Assignments/alg-ds-hw3/Scheduler.py",
+		"/home/bolshchikov/Documents/Education/Technion/Courses/094223 - Data Structures and Algorithms/Assignments/alg-ds-hw3/Process.py",
+		"/home/bolshchikov/Documents/Education/Technion/Courses/094223 - Data Structures and Algorithms/Assignments/alg-ds-hw3/LinkedHash.py",
+		"/home/bolshchikov/Documents/Education/Technion/Courses/094223 - Data Structures and Algorithms/Assignments/alg-ds-hw3/raw/LinkedHash.h",
+		"/home/bolshchikov/Documents/Education/Technion/Courses/094223 - Data Structures and Algorithms/Assignments/alg-ds-hw3/raw/LinkedHash.cpp",
+		"/home/bolshchikov/Documents/Education/Technion/Courses/094223 - Data Structures and Algorithms/Assignments/alg-ds-hw3/README.md",
+		"/home/bolshchikov/Documents/Education/Technion/Courses/094223 - Data Structures and Algorithms/Assignments/alg-ds-hw3/raw/Scheduler.h",
+		"/home/bolshchikov/Documents/Education/Technion/Courses/094223 - Data Structures and Algorithms/Assignments/alg-ds-hw3/raw/Process.h",
+		"/home/bolshchikov/Documents/Education/Technion/Courses/094223 - Data Structures and Algorithms/Assignments/alg-ds-hw3/raw/MaxHeap.h",
+		"/home/bolshchikov/Documents/Education/Technion/Courses/094223 - Data Structures and Algorithms/Assignments/alg-ds-hw3/raw/MaxHeap.cpp",
+		"/home/bolshchikov/Documents/Education/Technion/Courses/094223 - Data Structures and Algorithms/Assignments/alg-ds-hw3/raw/example_main.cpp",
+		"/home/bolshchikov/Documents/Education/Technion/Courses/094223 - Data Structures and Algorithms/Assignments/alg-ds-hw3/.hg/hgrc",
+		"/home/bolshchikov/Documents/Education/Technion/Courses/094223 - Data Structures and Algorithms/Assignments/alg-ds-hw1/.hg/hgrc",
+		"/home/bolshchikov/Documents/Education/Technion/Courses/094223 - Data Structures and Algorithms/Assignments/alg-ds-hw1/README.md",
+		"/home/bolshchikov/Documents/Education/Technion/Courses/094223 - Data Structures and Algorithms/Assignments/alg-ds-hw1/main.py",
+		"/home/bolshchikov/Documents/Education/Technion/Courses/094223 - Data Structures and Algorithms/Assignments/alg-ds-hw1/defs.py",
+		"/media/disk/main.cpp",
+		"/home/bolshchikov/Documents/Education/Technion/Courses/094223 - Data Structures and Algorithms/Assignments/alg-ds-hw2/q5.py",
+		"/home/bolshchikov/Documents/Education/Technion/Courses/094223 - Data Structures and Algorithms/Assignments/alg-ds-hw2/q4.py",
+		"/home/bolshchikov/Documents/Education/Technion/Courses/094223 - Data Structures and Algorithms/Assignments/alg-ds-hw2/q5-1.py",
+		"/home/bolshchikov/Documents/Education/Technion/Courses/094223 - Data Structures and Algorithms/Assignments/alg-ds-hw2/q5.js",
+		"/home/bolshchikov/.config/google-chrome/Default/User StyleSheets/Custom.css",
+		"/etc/X11/xorg.conf"
+	],
+	"find":
+	{
+		"height": 35.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"attr",
+			"queues",
+			"this.queues().length - 1]",
+			"0",
+			"this.queue",
+			"    if (!this.value) {\n      alert('Please, enter the value');\n      return;\n    }",
+			"console.log('enqueue;');",
+			"Head",
+			"head",
+			"indentat",
+			"February",
+			"dq",
+			"->",
+			"s1",
+			"self",
+			"selft",
+			"this"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 1,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "README.md",
+					"settings":
+					{
+						"buffer_size": 3993,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Markdown/Markdown.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 270.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "Process.py",
+					"settings":
+					{
+						"buffer_size": 497,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								54,
+								54
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Python/Python.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "LinkedHash.py",
+					"settings":
+					{
+						"buffer_size": 1526,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Python/Python.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "Scheduler.py",
+					"settings":
+					{
+						"buffer_size": 379,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Python/Python.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				}
+			]
+		},
+		{
+			"selected": 2,
+			"sheets":
+			[
+				{
+					"buffer": 4,
+					"file": "raw/Process.h",
+					"settings":
+					{
+						"buffer_size": 497,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/C++/C++.tmLanguage",
+							"tab_size": 3,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 5,
+					"file": "raw/Scheduler.h",
+					"settings":
+					{
+						"buffer_size": 337,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/C++/C++.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 6,
+					"file": "raw/LinkedHash.h",
+					"settings":
+					{
+						"buffer_size": 1849,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/C++/C++.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 7,
+					"file": "raw/LinkedHash.cpp",
+					"settings":
+					{
+						"buffer_size": 1990,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/C++/C++.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 8,
+					"file": "raw/MaxHeap.h",
+					"settings":
+					{
+						"buffer_size": 2345,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/C++/C++.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 9,
+					"file": "raw/MaxHeap.cpp",
+					"settings":
+					{
+						"buffer_size": 3353,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/C++/C++.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 0.0
+	},
+	"input":
+	{
+		"height": 31.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			],
+			[
+				1,
+				0,
+				2,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			0.5,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.exec":
+	{
+		"height": 287.0
+	},
+	"output.git":
+	{
+		"height": 315.0
+	},
+	"output.hg":
+	{
+		"height": 228.0
+	},
+	"replace":
+	{
+		"height": 0.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 150.0,
+	"status_bar_visible": true
+}

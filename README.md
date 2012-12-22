@@ -61,10 +61,10 @@ TODO
 	* <del>LinkedHash.h</del> and <del>LinkedHash.cpp</del>
 	* <del>MaxHeap.h</del> and <del>MaxHeap.cpp</del>
 	* <del>example_output.cpp</del>
-2. Implement Process
+2. <del>Implement Process</del>
 3. <del>Implement MaxHeap</del>
 4. <del>Implement LinkedHash</del>
-5. Implement Scheduler
+5. <del>Implement Scheduler</del>
 6. Write documentation
 
 ***
